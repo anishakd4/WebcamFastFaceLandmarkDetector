@@ -84,7 +84,7 @@ int main(){
     shape_predictor landmarkDetector;
     
     //load face landmark model
-    deserialize("../dlibAndModel/shape_predictor_68_face_landmarks.dat") >> landmarkDetector;
+    deserialize("shape_predictor_68_face_landmarks.dat") >> landmarkDetector;
 
     //define resize height
     float resizeHeight = 480;
